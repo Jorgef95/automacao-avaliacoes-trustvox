@@ -142,25 +142,27 @@ Y_TOPO_CARD_FALLBACK = 300     # usado só se o "Fechar" não for encontrado (re
 # Várias opções por categoria — o script sorteia uma a cada resposta, pra não
 # repetir sempre a mesma frase.
 RESPOSTAS = {
+    # EXEMPLOS GENÉRICOS. Substitua pelos textos aprovados da sua empresa.
+    # Cada categoria aceita quantos textos quiser; um é sorteado a cada resposta.
     "sem_comentario": [
-        "Olá! Muito obrigado pela avaliação. Ficamos felizes que você tenha gostado da compra. Conte sempre com a gente!",
-        "Olá! Obrigado pela sua avaliação. Ficamos felizes que tenha tido uma boa experiência com a compra. Até a próxima!",
+        "Olá! Obrigado pela sua avaliação. [Texto de exemplo 1 - sem comentário]",
+        "Olá! Agradecemos a sua nota. [Texto de exemplo 2 - sem comentário]",
     ],
     "produto": [
-        "Olá! Agradecemos por avaliar sua compra. Ficamos muito felizes que o produto tenha te agradado — que ele te acompanhe em muitos passos! Volte sempre.",
-        "Olá! Que bom saber que você gostou do produto escolhido! Agradecemos a avaliação e esperamos que ele te acompanhe por muito tempo.",
+        "Olá! Agradecemos o seu comentário sobre o produto. [Texto de exemplo 1 - produto]",
+        "Olá! Que bom que gostou do produto. [Texto de exemplo 2 - produto]",
     ],
     "atendimento": [
-        "Olá! Ficamos muito felizes com seu elogio ao nosso atendimento — vamos repassar seu feedback para a equipe! Agradecemos a confiança e esperamos te ver novamente em breve.",
-        "Olá! Agradecemos muito pelo carinho com o nosso time de atendimento. Isso nos motiva a continuar melhorando cada vez mais. Volte sempre!",
+        "Olá! Agradecemos o elogio ao atendimento. [Texto de exemplo 1 - atendimento]",
+        "Olá! Obrigado pelo carinho com a nossa equipe. [Texto de exemplo 2 - atendimento]",
     ],
     "detalhado": [
-        "Olá! Ficamos muito felizes em saber que sua experiência foi positiva! Agradecemos por compartilhar sua avaliação com tantos detalhes — esse tipo de feedback é muito importante para continuarmos aprimorando nossa experiência de compra e atendimento. Obrigado por confiar em nós, esperamos te ver novamente em breve!",
-        "Olá! Muito obrigado pelo relato detalhado da sua experiência. Nós acompanhamos de perto os comentários dos nossos clientes, e o seu ajuda a orientar melhorias reais. Agradecemos a confiança!",
+        "Olá! Obrigado por compartilhar uma avaliação tão detalhada. [Texto de exemplo 1 - detalhado]",
+        "Olá! Agradecemos o relato completo. [Texto de exemplo 2 - detalhado]",
     ],
     "ressalva": [
-        "Olá! Agradecemos sua avaliação e ficamos felizes que, no geral, a experiência tenha sido positiva. Também levamos a sério o ponto que você trouxe, e vamos usá-lo para melhorar ainda mais. Obrigado pela confiança!",
-        "Olá! Muito obrigado pelo feedback sincero. Ficamos felizes com a nota, e o ponto de melhoria que você apontou é muito valioso para nós — vamos repassar para a equipe responsável. Conte sempre com a gente!",
+        "Olá! Agradecemos o feedback e o ponto de melhoria apontado. [Texto de exemplo 1 - ressalva]",
+        "Olá! Obrigado pelo retorno sincero. [Texto de exemplo 2 - ressalva]",
     ],
 }
 

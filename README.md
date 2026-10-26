@@ -47,7 +47,7 @@ Não use mouse/teclado durante a execução. Para parar: **ESC**, ou mouse no ca
 
 ## Ajustes
 
-Parâmetros no topo do script (`CONFIDENCE`, `SCROLL_POR_AVANCO`, margens do OCR, `LIMITE_DETALHADO_PALAVRAS`) e textos no dicionário `RESPOSTAS`. Revise os textos com a sua gestão antes de usar.
+Parâmetros no topo do script (`CONFIDENCE`, `SCROLL_POR_AVANCO`, margens do OCR, `LIMITE_DETALHADO_PALAVRAS`) e textos no dicionário `RESPOSTAS`. Os textos incluídos são exemplos genéricos: substitua pelos aprovados na sua empresa.
 
 ## Limitações
 
