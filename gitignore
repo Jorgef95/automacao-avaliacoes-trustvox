@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+# Imagens de referência: capturadas da SUA tela, não versionar
+*.png
+# Prints com dados de clientes
+*.jpg
